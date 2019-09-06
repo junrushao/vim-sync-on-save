@@ -24,7 +24,7 @@ if g:sync_on_save >= 1
 endif
 
 if g:sync_on_save >= 1 && !exists("g:sync_on_save_prefix")
-  echo 'Error: g:sync_on_save_prefix is undefined. Should be defined in .vim/vim-syn-on-save.vim'
+  echo 'Error: g:sync_on_save_prefix is undefined. Should be defined in .vim/vim-sync-on-save.vim'
   let g:sync_on_save = 0
 endif
 
